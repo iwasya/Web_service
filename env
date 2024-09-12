@@ -31,7 +31,7 @@ CI_ENVIRONMENT = production
 #--------------------------------------------------------------------
 
 database.default.hostname = localhost
-database.default.database = ci4
+database.default.database = rekam_medis
 database.default.username = root
 database.default.password = 
 database.default.DBDriver = MySQLi

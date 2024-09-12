@@ -1,0 +1,1 @@
+class admin extends model

@@ -27,9 +27,15 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
+<<<<<<< HEAD
         'username'     => 'root',
         'password'     => '',
         'database'     => 'warehouse_db',
+=======
+        'username'     => '',
+        'password'     => '',
+        'database'     => '',
+>>>>>>> af465f6e1bd31ea6cd031ade51accd398ad97538
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -198,4 +204,8 @@ class Database extends Config
             $this->defaultGroup = 'tests';
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> af465f6e1bd31ea6cd031ade51accd398ad97538

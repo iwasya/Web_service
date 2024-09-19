@@ -6,6 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+<<<<<<< HEAD
 
 // Menampilkan daftar barang
 $routes->get('/items', 'Items::index');
@@ -29,3 +30,5 @@ $routes->get('/items/delete/(:segment)', 'Items::delete/$1');
 $routes->get('/login', 'Auth::login');
 $routes->post('/login', 'Auth::attemptLogin');
 $routes->get('/logout', 'Auth::logout');
+=======
+>>>>>>> af465f6e1bd31ea6cd031ade51accd398ad97538
